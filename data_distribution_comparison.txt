@@ -1,0 +1,53 @@
+--- Data Distribution: Original Dataset (Numerical) ---
+                 age         gender           year    population
+count  119495.000000  119811.000000  119516.000000  1.193780e+05
+mean       50.007038       1.578578    2025.068049  1.112983e+08
+std        29.154144       0.590559      43.584951  1.265205e+09
+min         0.000000       1.000000    1950.000000  2.100000e+01
+25%        25.000000       1.000000    1987.000000  2.316023e+06
+50%        50.000000       2.000000    2025.000000  7.145754e+06
+75%        75.000000       2.000000    2063.000000  1.466388e+07
+max       100.000000       3.000000    2119.000000  3.293043e+10
+
+--- Data Distribution: Categorical Counts (Original) ---
+
+Proportions for income_groups (Original):
+income_groups
+low_income                  23.810840
+upper_middle_income         23.744682
+high_income                 23.735470
+lower_middle_income         23.718722
+lower_middle_income_typo     1.270392
+low_income_typo              1.260342
+high_income_typo             1.235219
+upper_middle_income_typo     1.224333
+Name: proportion, dtype: float64
+
+--- Data Distribution: Cleaned Dataset (Numerical) ---
+                 age           year    population
+count  122768.000000  122768.000000  1.227680e+05
+mean       49.997224    1972.248941  1.083777e+08
+std        28.431984      26.642517  1.247735e+09
+min         0.000000    1925.000000  2.100000e+01
+25%        26.000000    1953.000000  2.615946e+06
+50%        49.997224    1973.000000  7.148956e+06
+75%        74.000000    1993.000000  1.397927e+07
+max       100.000000    2024.000000  3.293043e+10
+
+--- Data Distribution: Categorical Counts (Cleaned) ---
+
+Proportions for income_groups (Cleaned):
+income_groups
+Low Income             23.818096
+Upper Middle Income    23.754561
+Lower Middle Income    23.741529
+High Income            23.703245
+Unknown                 4.982569
+Name: proportion, dtype: float64
+Proportions for gender (Cleaned):
+gender
+1 (Male?)      45.108660
+2 (Female?)    45.086668
+3 (Other?)      5.113710
+Unknown         4.690962
+Name: proportion, dtype: float64
